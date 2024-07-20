@@ -64,7 +64,6 @@ const Team = () => {
 
   const paginatedRows = suiviData.slice((page - 1) * rowsPerPage, page * rowsPerPage);
 
-  // Example functions for edit and delete actions
   const handleEdit = (id) => {
     console.log(`Edit row with id ${id}`);
     // Add your logic for edit action

@@ -1,0 +1,17 @@
+export const rows = [
+    { id: 1, name: 'Ahmed Ben', age: 28, phoneNumber: '0612-345678', email: 'ahmed.ben@example.com', address: '123 Rue Principale', city: 'Casablanca', zipCode: '20000', registerId: 'REG001' },
+    { id: 2, name: 'Fatima Zahra', age: 34, phoneNumber: '0612-567890', email: 'fatima.zahra@example.com', address: '456 Rue Chouhada', city: 'Marrakech', zipCode: '40000', registerId: 'REG002' },
+    { id: 3, name: 'Mohamed El', age: 45, phoneNumber: '0612-876543', email: 'mohamed.el@example.com', address: '789 Rue Atlas', city: 'Fes', zipCode: '30000', registerId: 'REG003' },
+    { id: 4, name: 'Salma H', age: 22, phoneNumber: '0612-234567', email: 'salma.h@example.com', address: '101 Rue Tarik', city: 'Rabat', zipCode: '10000', registerId: 'REG004' },
+    { id: 5, name: 'Youssef A', age: 30, phoneNumber: '0612-678901', email: 'youssef.a@example.com', address: '202 Rue Agdal', city: 'Agadir', zipCode: '80000', registerId: 'REG005' },
+    { id: 6, name: 'Nadia L', age: 27, phoneNumber: '0612-345678', email: 'nadia.l@example.com', address: '303 Rue Almassira', city: 'Tangier', zipCode: '90000', registerId: 'REG006' },
+    { id: 7, name: 'Omar S', age: 33, phoneNumber: '0612-456789', email: 'omar.s@example.com', address: '404 Rue Laarbi', city: 'Tetouan', zipCode: '93000', registerId: 'REG007' },
+    { id: 8, name: 'Amina B', age: 40, phoneNumber: '0612-987654', email: 'amina.b@example.com', address: '505 Rue Marjane', city: 'Oujda', zipCode: '60000', registerId: 'REG008' },
+    { id: 9, name: 'Hassan T', age: 29, phoneNumber: '0612-654321', email: 'hassan.t@example.com', address: '606 Rue Rabat', city: 'Kenitra', zipCode: '14000', registerId: 'REG009' },
+    { id: 10, name: 'Zineb K', age: 35, phoneNumber: '0612-543210', email: 'zineb.k@example.com', address: '707 Rue Alhambra', city: 'Mohammedia', zipCode: '28810', registerId: 'REG010' },
+    { id: 11, name: 'Khalid M', age: 31, phoneNumber: '0612-432109', email: 'khalid.m@example.com', address: '808 Rue Souss', city: 'Settat', zipCode: '26000', registerId: 'REG011' },
+    { id: 12, name: 'Siham J', age: 26, phoneNumber: '0612-321098', email: 'siham.j@example.com', address: '909 Rue Marrakech', city: 'El Jadida', zipCode: '24000', registerId: 'REG012' },
+    { id: 13, name: 'Reda F', age: 37, phoneNumber: '0612-210987', email: 'reda.f@example.com', address: '1001 Rue Gueliz', city: 'Nador', zipCode: '62000', registerId: 'REG013' },
+    { id: 14, name: 'Hind O', age: 24, phoneNumber: '0612-109876', email: 'hind.o@example.com', address: '1101 Rue Souissi', city: 'Safi', zipCode: '46000', registerId: 'REG014' },
+    { id: 15, name: 'Ali E', age: 38, phoneNumber: '0612-098765', email: 'ali.e@example.com', address: '1201 Rue Meknes', city: 'Meknes', zipCode: '50000', registerId: 'REG015' },
+];
