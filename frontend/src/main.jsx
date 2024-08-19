@@ -21,6 +21,7 @@ import PublicRoute from "./routes/PublicRoute";
 import PrivateRoute from "./routes/PrivateRoute";
 import Login from "./pages/authentication/Login";
 import SignUp from "./pages/authentication/SignUp";
+import { AuthProvider } from "./context/AuthContext"; // Import AuthProvider
 
 const routes = (
   <Routes>
@@ -67,6 +68,8 @@ const routes = (
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router>{routes}</Router>
+    <AuthProvider> {/* Wrap your application with AuthProvider */}
+      <Router>{routes}</Router>
+    </AuthProvider>
   </React.StrictMode>
 );
